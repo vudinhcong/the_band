@@ -527,10 +527,12 @@ html {
 }
 
 @keyframes modalFadeIn {
+  /* from từ đâu */
   from {
     opacity: 0;
     transform: translateY(-140px);
   }
+  /* đến đâu */
   to {
     opacity: 1;
     transform: translateY(0);
